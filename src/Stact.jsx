@@ -35,14 +35,9 @@ function Stact() {
         <Router>
           <ScrollToTop/>
             <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/landing-1' element={<Landing1/>} />
-              <Route path='/landing-2' element={<Landing2/>} />
-              <Route path='/landing-3' element={<Landing3/>} />
-              <Route path='/app-landing' element={<AppLanding/>} />
-              <Route path='/saas-landing' element={<SaasLanding/>} />
+              <Route path='/' element={<Consulting />} />
+          
               <Route path='/personal-portfolio' element={<PersonalPortfolio/>} />
-              <Route path='/consulting' element={<Consulting/>} />
               <Route path='/about' element={<About/>} />
               <Route path='/contact' element={<Contact/>} />
               <Route path='/pricing' element={<Pricing/>} />
